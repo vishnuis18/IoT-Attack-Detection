@@ -66,6 +66,11 @@ To analyze and visualize the BoT-IoT dataset for identifying different types of 
 14. Types of Attacks
     <img width="979" height="200" alt="image" src="https://github.com/user-attachments/assets/41698584-8708-4598-8220-c2bd68a7e41f" />
     <img width="979" height="830" alt="image" src="https://github.com/user-attachments/assets/c9bd7053-7a59-494e-bffc-0fc4a6b23800" />
+15. Protocol Distribution
+    <img width="977" height="196" alt="image" src="https://github.com/user-attachments/assets/c356a69d-149f-4e91-9f1e-9eaeb808cf9e" />
+    <img width="979" height="833" alt="image" src="https://github.com/user-attachments/assets/7796472f-1117-4702-a8ca-04d70791537c" />
+
+
 
 ## Key Findings
 
@@ -112,20 +117,28 @@ To detect IoT network attacks using a **Random Forest Classifier**
 ## Methodology
 
 1. Import Libraries
-2. Load Dataset
-3. Data Preprocessing
-
+   <img width="1041" height="292" alt="image" src="https://github.com/user-attachments/assets/62a21e47-9d5b-46c3-af15-0deef5779e35" />
+3. Load Dataset
+   <img width="1054" height="141" alt="image" src="https://github.com/user-attachments/assets/c5f2140a-1557-488c-8d86-d0f18a2773b5" />
+5. Data Preprocessing
    * Remove missing values
    * Select numerical features
    * Drop irrelevant columns
-4. Train-Test Split
-5. Model Training (Random Forest)
-6. Prediction & Evaluation
+   <img width="975" height="540" alt="image" src="https://github.com/user-attachments/assets/da713da4-3053-4785-8853-0966b2e48281" />
+6. Train-Test Split
+   <img width="975" height="140" alt="image" src="https://github.com/user-attachments/assets/026a8b8c-0844-44ec-8c1b-93d0b3d0ad65" />
+8. Model Training (Random Forest)
+   <img width="975" height="102" alt="image" src="https://github.com/user-attachments/assets/6edc447d-ef19-4637-8e82-56b5997f5bc6" />
+10. Prediction & Evaluation
+    <img width="975" height="187" alt="image" src="https://github.com/user-attachments/assets/9af9bdb8-b769-4fbd-9c5a-3453971bc63d" />
+    <img width="975" height="389" alt="image" src="https://github.com/user-attachments/assets/53bf1688-34b6-4687-ad7b-0039f7bf1d38" />
+
 
 ## Results
 
 * Model Accuracy: **~99.99%**
 * Successfully detects attack traffic
+<img width="1005" height="250" alt="image" src="https://github.com/user-attachments/assets/65fc9349-6c9e-4f96-b09c-a7336c27dfaf" />
 
 ## Analysis
 
